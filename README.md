@@ -6,6 +6,6 @@ robosys第1課題
 このソフトウェアパッケージは, 3条項BSDライセンスの下, 再頒布および使用が許可されます.
 
 ## テスト環境
--Ubuntu 22.04 LTS
+- Ubuntu 22.04 LTS
 
 © 2025 Kyohei Tanaka
