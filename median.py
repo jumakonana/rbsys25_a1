@@ -4,4 +4,4 @@
 import sys
 a = sys.stdin.read()
 
-print(f"ddd{a}")
+print(a)
