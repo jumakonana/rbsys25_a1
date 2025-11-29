@@ -4,4 +4,13 @@
 import sys
 a = sys.stdin.read()
 
-print(a)
+i = j = 0
+
+while i < len(a):
+    if a[i] != '\n':
+      print(a[i])
+      j += 1
+    i += 1
+
+print(len(a) - j)
+
