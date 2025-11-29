@@ -15,7 +15,7 @@ a = c % 2
 for line in lines:
     try:
         n = int(line)
-        print(n)
+#        print(n)
     except:
         n = float(line)
     i += 1
@@ -27,6 +27,6 @@ for line in lines:
         if i == (c / 2) + 0.5:
             x = n
 
-print(c)
-print(i)
+#print(c)
+#print(i)
 print(x)
