@@ -10,6 +10,8 @@ lines = sys.stdin.readlines()
 for line in lines:
     c += 1
 
+a = c % 2
+
 for line in lines:
     try:
         n = int(line)
@@ -17,8 +19,13 @@ for line in lines:
     except:
         n = float(line)
     i += 1
-    if i == c / 2:
-        x = n
+
+    if a == 0:
+        if i == c / 2:
+            x = n
+    else:
+        if i == (c / 2) + 0.5:
+            x = n
 
 print(c)
 print(i)
