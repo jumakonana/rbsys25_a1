@@ -23,6 +23,8 @@ for line in lines:
     if a == 0:
         if i == c / 2:
             x = n
+        if i == (c / 2) + 1:
+            x = (x + n) /2
     else:
         if i == (c / 2) + 0.5:
             x = n
