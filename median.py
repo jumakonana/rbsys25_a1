@@ -2,29 +2,24 @@
 # SPDX-License-Identifer: BSD-3-Clause
 
 import sys
-#a = sys.stdin.read()
 
-i = j = 0
+i = n = x = c = 0
 
-#while i < len(a):
- #   if a[i] != '\n':
-  #    #print(a[i])
-   #   j += 1
-    #i += 1
+lines = sys.stdin.readlines()
 
-n = x = c = 0
+for line in lines:
+    c += 1
 
-for line in sys.stdin:
+for line in lines:
     try:
         n = int(line)
-        #print(n)
+        print(n)
     except:
         n = float(line)
-    c += 1
-    if c == 2:
+    i += 1
+    if i == c / 2:
         x = n
 
-#print(len(a) - j)
 print(c)
-#print(n)
+print(i)
 print(x)
