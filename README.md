@@ -8,9 +8,8 @@
 
 seqコマンドで生成した配列の中央値を返す
 
-`$ seq 5 | python median.py
-
- 3`
+`$ seq 5 | python median.py`
+` 3`
 
 ### 例2
 
