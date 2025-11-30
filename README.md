@@ -9,22 +9,29 @@
 seqコマンドで生成した配列の中央値を返す
 
 `$ seq 5 | python median.py
+
  3`
 
 ### 例2
 
 txtファイル内の数値の中央値を返す
 
-`$ cat a.txt | sort -n |python median.py
+`$ cat a.txt | sort -n | python median.py
+
  42.0`
 
 a.txtの中身
 
 `38
+
 55
+
 83
+
 21
+
 33
+
 46
 `
 
