@@ -5,7 +5,9 @@
 
 ## 動作例
 - 例1
+
 seqコマンドで生成した配列の中央値を返す
+
 `$ seq 5 | python median.py`
 
 
@@ -13,6 +15,7 @@ seqコマンドで生成した配列の中央値を返す
 
 
 ## インストール方法
+
 コマンドプロンプトで以下を実行
 `$ git clone https://github.com/jumakonana/rbsys25_a1.git`
 
