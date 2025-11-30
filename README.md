@@ -1,7 +1,7 @@
 # 中央値を返すコマンド
 ![test](https://github.com/jumakonana/rbsys25_a1/actions/workflows/test.yml/badge.svg)
 
-与えられた数値の中央値を返すコマンド
+与えられた数値の集まりの中央値を返すコマンド
 
 ## 動作
 ### 例.1
@@ -15,7 +15,7 @@ $ seq 5 | python median.py
 
 ### 例.2
 
-txtファイル内の数値の中央値を返す
+txtファイル内の数値の集まりの中央値を返す
 
 ```
 $ cat a.txt | sort -n | python median.py
