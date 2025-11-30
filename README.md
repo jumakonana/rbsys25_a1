@@ -1,16 +1,23 @@
 # 中央値を返すコマンド
 ![test](https://github.com/jumakonana/rbsys25_a1/actions/workflows/test.yml/badge.svg)
+
 与えられた数値の中央値を返すコマンド
 
-#動作
+## 動作例
+- 例1
+seqコマンドで生成した配列の中央値を返す
+`$ seq 5 | python median.py`
 
 
-# インストール方法
+`$ cat a.txt | python median.py`
 
+
+## インストール方法
+コマンドプロンプトで以下を実行
 `$ git clone https://github.com/jumakonana/rbsys25_a1.git`
 
 ## 必要な環境
-
+- python
 
 
 ## テスト環境
