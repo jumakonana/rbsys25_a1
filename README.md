@@ -3,7 +3,15 @@
 
 中央値を返すコマンド
 
-`python`
+##動作
+
+
+##インストール方法
+`$ git clone https://github.com/jumakonana/rbsys25_a1.it`
+
+##必要な環境
+
+
 
 ## テスト環境
 - Ubuntu 22.04 LTS
