@@ -1,16 +1,19 @@
 # SPDX-FileCopyrightText: 2025 jumakonana
 # SPDX-License-Identifer: BSD-3-Clause
 
+
 import sys
 
-i = n = x = c = 0
+i = n = ans = size = 0
 
 lines = sys.stdin.readlines()
 
 for line in lines:
-    c += 1
+    size += 1
 
-a = c % 2
+
+rem = size % 2
+
 
 for line in lines:
     try:
@@ -19,14 +22,14 @@ for line in lines:
         n = float(line)
     i += 1
 
-    if a == 0:
-        if i == c / 2:
-            x = n
-        if i == (c / 2) + 1:
-            x = (x + n) / 2
+    if rem == 0:
+        if i == size / 2:
+            ans = n
+        if i == (size / 2) + 1:
+            ans = (ans + n) / 2
     else:
-        if i == (c / 2) + 0.5:
-            x = n
+        if i == (size / 2) + 0.5:
+            ans = n
 
 
-print(x)
+print(ans)
