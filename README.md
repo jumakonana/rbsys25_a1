@@ -39,8 +39,9 @@ a.txtの中身
 
 `$ git clone https://github.com/jumakonana/rbsys25_a1.git`
 
-## 必要な環境
-- python
+## 必要なソフト
+- Python
+  - テスト済みバージョン: 3.8 ~ 3.10
 
 
 ## テスト環境
