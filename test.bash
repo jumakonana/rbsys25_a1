@@ -15,10 +15,6 @@ out=$(seq 5 | python median.py)
 [ "${out}" = 3 ] || ng "$LINENO"
 
 
-#out=$(echo a | python median.py)
-#[ "$?" = "" ] || ng "$LINENO"
-#[ "${out}" = "" ] || ng "$LINENO"
-
 [[ $res -eq 0 ]] && echo OK
 
 
