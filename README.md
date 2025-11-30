@@ -17,24 +17,21 @@ $ seq 5 | python median.py
 
 txtファイル内の数値の中央値を返す
 
-`$ cat a.txt | sort -n | python median.py
-
- 42.0`
+```
+$ cat a.txt | sort -n | python median.py
+42.0
+```
 
 a.txtの中身
 
-`38
-
+```
+38
 55
-
 83
-
 21
-
 33
-
 46
-`
+```
 
 ## インストール方法
 
