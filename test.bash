@@ -15,6 +15,10 @@ out=$(seq 5 | python median.py)
 [ "${out}" = 3 ] || ng "$LINENO"
 
 
+out=$(seq 1 3 16 | python median.py)
+[ "${out}" = 8.5 ] || ng "$LINENO"
+
+
 [[ $res -eq 0 ]] && echo OK
 
 
