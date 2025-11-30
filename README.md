@@ -7,7 +7,8 @@
 
 
 ##インストール方法
-`$ git clone https://github.com/jumakonana/rbsys25_a1.it`
+
+`$ git clone https://github.com/jumakonana/rbsys25_a1.git`
 
 ##必要な環境
 
