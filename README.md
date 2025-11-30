@@ -1,12 +1,11 @@
 # 中央値を返すコマンド
 ![test](https://github.com/jumakonana/rbsys25_a1/actions/workflows/test.yml/badge.svg)
+与えられた数値の中央値を返すコマンド
 
-中央値を返すコマンド
-
-##動作
+#動作
 
 
-##インストール方法
+#インストール方法
 
 `$ git clone https://github.com/jumakonana/rbsys25_a1.git`
 
