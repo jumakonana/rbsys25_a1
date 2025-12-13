@@ -1,6 +1,6 @@
 #!/bin/bash
 # SPDX-FileCopyrightText: 2025 jumakonana
-# SPDX-License-Identifer: BSD-3-Clause
+# SPDX-License-Identifier: BSD-3-Clause
 
 
 ng () {
@@ -19,7 +19,7 @@ out=$(seq 1 3 16 | python median.py)
 [ "${out}" = 8.5 ] || ng "$LINENO"
 
 
-[[ $res -eq 0 ]] && echo OK
+[ "$res" = 0 ] && echo OK
 
 
 exit $res
