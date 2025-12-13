@@ -9,7 +9,7 @@ ng () {
 }
 
 
-res = 0
+res=0
 
 out=$(seq 5 | python median.py)
 [ "${out}" = 3 ] || ng "$LINENO"
