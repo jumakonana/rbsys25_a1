@@ -11,11 +11,11 @@ ng () {
 
 res=0
 
-out=$(seq 5 | python median.py)
+out=$(seq 5 | ./median)
 [ "${out}" = 3 ] || ng "$LINENO"
 
 
-out=$(seq 1 3 16 | python median.py)
+out=$(seq 1 3 16 | ./median)
 [ "${out}" = 8.5 ] || ng "$LINENO"
 
 
