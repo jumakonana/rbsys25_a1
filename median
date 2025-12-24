@@ -20,7 +20,11 @@ for line in lines:
     try:
         n = int(line)
     except:
-        n = float(line)
+        try:
+            n = float(line)    
+        except ValueError:
+            sys.exit(1)
+    
     i += 1
 
     if rem == 0:

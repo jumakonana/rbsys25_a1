@@ -19,6 +19,11 @@ out=$(seq 1 3 16 | ./median)
 [ "${out}" = 8.5 ] || ng "$LINENO"
 
 
+out=$(echo あ | ./median)
+[ "$?" = 1 ] || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
+
+
 [ "$res" = 0 ] && echo OK
 
 
