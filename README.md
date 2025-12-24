@@ -9,7 +9,7 @@
 seqコマンドで生成した配列の中央値を返す
 
 ```
-$ seq 5 | python median.py
+$ seq 5 | ./median
 3
 ```
 
@@ -18,7 +18,7 @@ $ seq 5 | python median.py
 txtファイル内の数値の集まりの中央値を返す
 
 ```
-$ cat a.txt | sort -n | python median.py
+$ cat a.txt | sort -n | ./median
 42.0
 ```
 
