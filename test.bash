@@ -11,14 +11,19 @@ ng () {
 
 res=0
 
+
+### NORMAL INPUT###
 out=$(seq 5 | ./median)
+[ "$?" = 0 ] || ng "$LINENO"
 [ "${out}" = 3 ] || ng "$LINENO"
 
 
 out=$(seq 1 3 16 | ./median)
+[ "$?" = 0 ] || ng "$LINENO"
 [ "${out}" = 8.5 ] || ng "$LINENO"
 
 
+### STRANGE INPUT###
 out=$(echo あ | ./median)
 [ "$?" = 1 ] || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
