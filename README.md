@@ -8,7 +8,7 @@
 
 seqコマンドで生成した配列の中央値を返す
 
-```bash
+```
 $ seq 5 | ./median
 3
 ```
@@ -17,7 +17,7 @@ $ seq 5 | ./median
 
 txtファイル内の数値の集まりの中央値を返す
 
-```bash
+```
 $ cat a.txt | sort -n | ./median
 42.0
 ```
@@ -39,7 +39,7 @@ $ cat a.txt | sort -n | ./median
 
 medianはrbsys25_a1の直下に位置
 
-```bash
+```
 $ git clone https://github.com/jumakonana/rbsys25_a1.git
 $ cd rbsys25_a1
 ```
@@ -52,7 +52,7 @@ $ cd rbsys25_a1
 ## テスト環境
 - Ubuntu 22.04 LTS
 ### GitHub Actionsでのテスト
-- Ubuntu 22.04 LTS
+- Ubuntu 24.04 LTS
 
 このソフトウェアパッケージは, 3条項BSDライセンスの下, 再頒布および使用が許可されます.
 
