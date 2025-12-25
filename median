@@ -7,7 +7,14 @@ import sys
 
 i = n = ans = size = 0
 
+if sys.stdin.isatty():
+    sys.exit(0)
+
 lines = sys.stdin.readlines()
+
+if not lines:
+    sys.exit(1)
+
 
 for line in lines:
     size += 1
