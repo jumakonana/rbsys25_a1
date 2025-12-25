@@ -8,7 +8,7 @@
 
 seqコマンドで生成した配列の中央値を返す
 
-```
+```bash
 $ seq 5 | ./median
 3
 ```
@@ -17,7 +17,7 @@ $ seq 5 | ./median
 
 txtファイル内の数値の集まりの中央値を返す
 
-```
+```bash
 $ cat a.txt | sort -n | ./median
 42.0
 ```
@@ -37,7 +37,12 @@ $ cat a.txt | sort -n | ./median
 
 コマンドプロンプトで以下を実行
 
-`$ git clone https://github.com/jumakonana/rbsys25_a1.git`
+medianはrbsys25_a1の直下に位置
+
+```bash
+$ git clone https://github.com/jumakonana/rbsys25_a1.git
+$ cd rbsys25_a1
+```
 
 ## 必要なソフト
 - Python
