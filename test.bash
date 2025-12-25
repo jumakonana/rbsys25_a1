@@ -33,7 +33,7 @@ out=$(echo | ./median)
 
 out=$(./median)
 [ "$?" = 1 ] || ng "$LINENO"
-#[ "${out}" = "" ] || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
 
 
 [ "$res" = 0 ] && echo OK
