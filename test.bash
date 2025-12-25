@@ -17,7 +17,6 @@ out=$(seq 5 | ./median)
 [ "$?" = 0 ] || ng "$LINENO"
 [ "${out}" = 3 ] || ng "$LINENO"
 
-
 out=$(seq 1 3 16 | ./median)
 [ "$?" = 0 ] || ng "$LINENO"
 [ "${out}" = 8.5 ] || ng "$LINENO"
@@ -27,6 +26,15 @@ out=$(seq 1 3 16 | ./median)
 out=$(echo あ | ./median)
 [ "$?" = 1 ] || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
+
+out=$(echo | ./median)
+[ "$?" = 1 ] || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
+
+out=$(./median)
+[ "$?" = 1 ] || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
+
 
 
 [ "$res" = 0 ] && echo OK

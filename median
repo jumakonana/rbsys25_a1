@@ -8,12 +8,9 @@ import sys
 i = n = ans = size = 0
 
 if sys.stdin.isatty():
-    sys.exit(0)
+    sys.exit(1)
 
 lines = sys.stdin.readlines()
-
-if not lines:
-    sys.exit(1)
 
 
 for line in lines:
