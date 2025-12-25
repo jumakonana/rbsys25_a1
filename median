@@ -12,6 +12,9 @@ if sys.stdin.isatty():
 
 lines = sys.stdin.readlines()
 
+if len(lines) == 0:
+    sys.exit(1)
+
 
 for line in lines:
     size += 1
